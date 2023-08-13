@@ -1,0 +1,20 @@
+{
+  "name": "json-server-api-tests",
+  "version": "1.0.0",
+  "description": "examp-task-api-tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "npx json-server-auth http://jsonplaceholder.typicode.com/db"
+  },
+  "author": "IhorHura",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^12.17.3",
+    "json-server-auth": "^2.1.0"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^8.0.2"
+  }
+  
+}
